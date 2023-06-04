@@ -1,0 +1,95 @@
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/568/845/216/dark-blue-blur-gradation-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#login-head{
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    left: 675px;
+    top: 80px;
+    border-bottom: 2px solid white;
+}
+
+#container{
+    position: absolute;
+    width: fit-content;
+    height: 455px;
+    border-radius: 20px;
+    top: 70px;
+    margin-left: 470px;
+    animation: 5s linear 0s infinite running border-change;
+   
+}
+@keyframes border-change{
+    0%{
+        box-shadow: 0px 0px 10px white;
+    }
+    20%{
+        box-shadow: 0px 0px 10px purple;
+    }
+    40%{
+        box-shadow: 0px 0px 10px yellow;
+    }
+    60%{
+        box-shadow: 0px 0px 10px orange;
+    }
+    80%{
+        box-shadow: 0px 0px 10px rgb(35, 251, 107);
+    }
+    100%{
+        box-shadow: 0px 0px 10px rgb(108, 255, 255);
+    }
+}
+.inbox{
+    position: relative;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 20px;
+}
+.label{
+    position: relative;
+    font-size: 25px;
+    color: white;
+}
+#email-box{
+    top: 115px;
+    left: 142px;
+    color: white;
+}
+#email-label{
+    top: 106px;
+    left: 145px;
+}
+#pwd-box{
+    left: 141px;
+    top: 200px;
+    color: white;
+}
+#pwd-label{
+    left: -114px;
+    top: 190px;
+}
+#login-btn{
+    position: relative;
+    top: 275px;
+    left: -125px;
+    padding-left: 110px;
+    padding-right: 110px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#login-btn:active{
+    border: 1px solid black;
+}
